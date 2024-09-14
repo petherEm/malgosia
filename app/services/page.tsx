@@ -1,6 +1,5 @@
 "use client";
 
-import { BsArrowDownRight } from "react-icons/bs";
 import { LiaCertificateSolid } from "react-icons/lia";
 
 import { motion } from "framer-motion";
