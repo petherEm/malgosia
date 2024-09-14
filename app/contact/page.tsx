@@ -3,20 +3,10 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectLabel,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 
 import { motion } from "framer-motion";
 
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import { title } from "process";
 
 const info = [
   {
@@ -57,7 +47,9 @@ const Contact = () => {
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
               action=""
             >
-              <h3 className="text-4xl text-[#b629dc]">Let's work together</h3>
+              <h3 className="text-4xl text-[#b629dc]">
+                Let&apos;s work together
+              </h3>
               <p className="tet-white/60">
                 With extensive experience in the automotive industry, I
                 effectively apply strategic planning, financial expertise, and
@@ -74,19 +66,6 @@ const Contact = () => {
                 <Input type="phone" placeholder="Phone" />
               </div>
 
-              {/* <Select>
-                <SelectTrigger className="w-full">
-                  <SelectValue placeholder="Area of cooperation" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectGroup>
-                    <SelectLabel>Frontend</SelectLabel>
-                    <SelectItem value="est"></SelectItem>
-                    <SelectItem value="cst">Business Development</SelectItem>
-                    <SelectItem value="mst">Project Management</SelectItem>
-                  </SelectGroup>
-                </SelectContent>
-              </Select> */}
               <Textarea
                 className="h-[200px]"
                 placeholder="Type your message here..."

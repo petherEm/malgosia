@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const socialsItems = [
